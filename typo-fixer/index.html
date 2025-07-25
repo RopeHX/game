@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typo Fixer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a href="../" class="back-btn">← Zurück</a>
+            <h1>⌨️ Typo Fixer</h1>
+            <p>Korrigiere die Tippfehler so schnell wie möglich!</p>
+        </header>
+        
+        <div class="game-area">
+            <div class="stats">
+                <div class="stat">
+                    <span class="label">Zeit:</span>
+                    <span id="timer">0.0s</span>
+                </div>
+                <div class="stat">
+                    <span class="label">Satz:</span>
+                    <span id="progress">1/10</span>
+                </div>
+                <div class="stat">
+                    <span class="label">WPM:</span>
+                    <span id="wpm">0</span>
+                </div>
+            </div>
+            
+            <div class="sentence-display">
+                <div class="original-sentence">
+                    <h3>Fehlerhafter Satz:</h3>
+                    <p id="errorSentence"></p>
+                </div>
+                
+                <div class="target-sentence">
+                    <h3>Deine Eingabe:</h3>
+                    <div id="typingDisplay"></div>
+                </div>
+            </div>
+            
+            <div class="input-area">
+                <input type="text" id="userInput" placeholder="Tippe den korrigierten Satz hier..." autocomplete="off" spellcheck="false">
+            </div>
+            
+            <div class="controls">
+                <button id="startBtn">Spiel starten</button>
+                <button id="skipBtn" style="display: none;">Überspringen</button>
+                <button id="newGameBtn" style="display: none;">Neues Spiel</button>
+            </div>
+            
+            <div id="results" class="results" style="display: none;">
+                <h2>🎉 Spiel beendet!</h2>
+                <div class="final-stats">
+                    <div class="final-stat">
+                        <span class="value" id="finalWPM">0</span>
+                        <span class="unit">WPM</span>
+                    </div>
+                    <div class="final-stat">
+                        <span class="value" id="finalAccuracy">0</span>
+                        <span class="unit">% Genauigkeit</span>
+                    </div>
+                    <div class="final-stat">
+                        <span class="value" id="finalTime">0</span>
+                        <span class="unit">Sekunden</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

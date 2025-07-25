@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fakt oder Fake?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a href="../" class="back-btn">← Zurück</a>
+            <h1>🧠 Fakt oder Fake?</h1>
+            <p>Erkenne wahre von falschen Aussagen!</p>
+        </header>
+        
+        <div class="game-area">
+            <div class="stats">
+                <div class="stat">
+                    <span class="label">Punkte:</span>
+                    <span id="score">0</span>
+                </div>
+                <div class="stat">
+                    <span class="label">Frage:</span>
+                    <span id="progress">1/10</span>
+                </div>
+                <div class="stat">
+                    <span class="label">Zeit:</span>
+                    <span id="timer">15s</span>
+                </div>
+            </div>
+            
+            <div class="question-card" id="questionCard">
+                <div class="question-text" id="questionText">
+                    Klicke auf "Spiel starten" um zu beginnen!
+                </div>
+                
+                <div class="answer-buttons" id="answerButtons" style="display: none;">
+                    <button id="trueBtn" class="answer-btn true-btn">
+                        ✓ WAHR
+                    </button>
+                    <button id="falseBtn" class="answer-btn false-btn">
+                        ✗ FALSCH
+                    </button>
+                </div>
+                
+                <div class="feedback" id="feedback" style="display: none;">
+                    <div class="feedback-result" id="feedbackResult"></div>
+                    <div class="feedback-explanation" id="feedbackExplanation"></div>
+                    <button id="nextBtn" class="next-btn">Weiter</button>
+                </div>
+            </div>
+            
+            <div class="controls">
+                <button id="startBtn">Spiel starten</button>
+                <button id="newGameBtn" style="display: none;">Neues Spiel</button>
+            </div>
+            
+            <div id="results" class="results" style="display: none;">
+                <h2>🎉 Quiz beendet!</h2>
+                <div class="final-stats">
+                    <div class="final-stat">
+                        <span class="value" id="finalScore">0</span>
+                        <span class="unit">Punkte</span>
+                    </div>
+                    <div class="final-stat">
+                        <span class="value" id="finalAccuracy">0</span>
+                        <span class="unit">% Richtig</span>
+                    </div>
+                    <div class="final-stat">
+                        <span class="value" id="finalRating">🤔</span>
+                        <span class="unit">Bewertung</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

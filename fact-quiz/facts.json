@@ -1,0 +1,77 @@
+[
+  {
+    "statement": "Bananen sind botanisch gesehen Beeren.",
+    "isTrue": true,
+    "explanation": "Bananen sind tatsächlich Beeren! Botanisch gesehen sind sie einsamige Früchte mit weichem Fruchtfleisch, während Erdbeeren technisch gesehen keine Beeren sind."
+  },
+  {
+    "statement": "Goldfish haben ein Gedächtnis von nur 3 Sekunden.",
+    "isTrue": false,
+    "explanation": "Das ist ein weit verbreiteter Mythos! Goldfische können sich tatsächlich monatelang an Dinge erinnern und können sogar trainiert werden."
+  },
+  {
+    "statement": "Der Eiffelturm ist im Sommer etwa 15 cm höher als im Winter.",
+    "isTrue": true,
+    "explanation": "Durch die Wärmeausdehnung des Eisens wird der Eiffelturm im Sommer tatsächlich etwa 15 cm höher. Metall dehnt sich bei Hitze aus und zieht sich bei Kälte zusammen."
+  },
+  {
+    "statement": "Oktopusse haben drei Herzen.",
+    "isTrue": true,
+    "explanation": "Oktopusse haben tatsächlich drei Herzen! Zwei pumpen Blut zu den Kiemen, das dritte pumpt Blut zum Rest des Körpers."
+  },
+  {
+    "statement": "Die Chinesische Mauer ist vom Weltraum aus mit bloßem Auge sichtbar.",
+    "isTrue": false,
+    "explanation": "Das ist ein Mythos! Die Chinesische Mauer ist vom Weltraum aus nicht mit bloßem Auge sichtbar. Dieser Irrglaube ist weit verbreitet, aber falsch."
+  },
+  {
+    "statement": "Honig verdirbt niemals.",
+    "isTrue": true,
+    "explanation": "Honig hat eine unbegrenzte Haltbarkeit! Archäologen haben 3000 Jahre alten Honig in ägyptischen Gräbern gefunden, der noch essbar war."
+  },
+  {
+    "statement": "Ein Jahr auf der Venus dauert länger als ein Tag auf der Venus.",
+    "isTrue": false,
+    "explanation": "Tatsächlich ist es umgekehrt! Ein Tag auf der Venus (243 Erdtage) dauert länger als ein Jahr auf der Venus (225 Erdtage), weil sich die Venus sehr langsam dreht."
+  },
+  {
+    "statement": "Flamingos sind von Natur aus rosa.",
+    "isTrue": false,
+    "explanation": "Flamingos werden erst durch ihre Nahrung rosa! Sie fressen Algen und Krebstiere, die Carotinoide enthalten, welche die rosa Färbung verursachen."
+  },
+  {
+    "statement": "Es gibt mehr mögliche Schachspiele als Atome im beobachtbaren Universum.",
+    "isTrue": true,
+    "explanation": "Die Anzahl möglicher Schachspiele wird auf 10^120 geschätzt, während das beobachtbare Universum etwa 10^80 Atome enthält. Schach ist unglaublich komplex!"
+  },
+  {
+    "statement": "Pinguine können nur in der Antarktis leben.",
+    "isTrue": false,
+    "explanation": "Das stimmt nicht! Es gibt 18 Pinguinarten, und nur 4 davon leben in der Antarktis. Andere leben in Südamerika, Afrika, Australien und sogar am Äquator auf den Galápagos-Inseln."
+  },
+  {
+    "statement": "Ein Blitz ist heißer als die Oberfläche der Sonne.",
+    "isTrue": true,
+    "explanation": "Ein Blitz kann bis zu 30.000°C heiß werden, während die Sonnenoberfläche nur etwa 5.500°C hat. Blitze sind extrem heiß, aber nur für Bruchteile von Sekunden."
+  },
+  {
+    "statement": "Haie sind älter als Bäume.",
+    "isTrue": true,
+    "explanation": "Haie existieren seit etwa 400 Millionen Jahren, während die ersten Bäume vor etwa 350 Millionen Jahren entstanden. Haie sind wahre Überlebenskünstler!"
+  },
+  {
+    "statement": "Menschen nutzen nur 10% ihres Gehirns.",
+    "isTrue": false,
+    "explanation": "Das ist ein Mythos! Menschen nutzen praktisch ihr gesamtes Gehirn. Moderne Bildgebungsverfahren zeigen, dass wir fast alle Bereiche unseres Gehirns verwenden."
+  },
+  {
+    "statement": "Wombats haben würfelförmigen Kot.",
+    "isTrue": true,
+    "explanation": "Wombats produzieren tatsächlich würfelförmigen Kot! Dies liegt an ihrer speziellen Darmstruktur und hilft dabei, dass der Kot nicht wegrollt und als Markierung dient."
+  },
+  {
+    "statement": "Die Sahara-Wüste war früher ein grüner Wald.",
+    "isTrue": true,
+    "explanation": "Vor etwa 6.000-10.000 Jahren war die Sahara tatsächlich grün und fruchtbar mit Seen, Flüssen und Vegetation. Klimaveränderungen verwandelten sie in eine Wüste."
+  }
+]

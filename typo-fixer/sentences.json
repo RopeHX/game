@@ -1,0 +1,42 @@
+[
+  {
+    "correct": "Der schnelle braune Fuchs springt über den faulen Hund.",
+    "typo": "Der schnele braune Fux springt übre den faulen Hun."
+  },
+  {
+    "correct": "Programmieren macht Spaß und ist sehr kreativ.",
+    "typo": "Programieren macht Spas und ist ser kreativ."
+  },
+  {
+    "correct": "JavaScript ist eine vielseitige Programmiersprache.",
+    "typo": "JavaScrip ist eine vielsitige Programiersprache."
+  },
+  {
+    "correct": "Die Sonne scheint heute besonders hell und warm.",
+    "typo": "Die Sone scheint heut besonders hel und warm."
+  },
+  {
+    "correct": "Künstliche Intelligenz verändert unsere Welt grundlegend.",
+    "typo": "Künstlche Inteligenz veränder unsre Welt grundlegnd."
+  },
+  {
+    "correct": "Bücher öffnen Türen zu neuen Welten und Abenteuern.",
+    "typo": "Bücher öfnen Türen zu neun Welten und Abenteuern."
+  },
+  {
+    "correct": "Musik verbindet Menschen über alle Grenzen hinweg.",
+    "typo": "Musik verbindet Menshen über ale Grenzen hinwg."
+  },
+  {
+    "correct": "Wissenschaft und Forschung treiben den Fortschritt voran.",
+    "typo": "Wisenshaft und Forshung treiben den Fortschrit voran."
+  },
+  {
+    "correct": "Kreativität und Innovation sind der Schlüssel zum Erfolg.",
+    "typo": "Kreativitä und Inovation sind der Schlüsel zum Erfolg."
+  },
+  {
+    "correct": "Teamwork macht komplexe Projekte erst möglich und erfolgreich.",
+    "typo": "Teamwrk macht komplexe Projekte erst möglch und erfolgrich."
+  }
+]

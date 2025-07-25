@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Manuel Neuer",
+    "country": "Deutschland",
+    "clubs": ["Bayern München", "Schalke 04"]
+  },
+  {
+    "name": "Thomas Müller",
+    "country": "Deutschland", 
+    "clubs": ["Bayern München"]
+  },
+  {
+    "name": "Karim Benzema",
+    "country": "Frankreich",
+    "clubs": ["Real Madrid", "Lyon"]
+  },
+  {
+    "name": "Luka Modrić",
+    "country": "Kroatien",
+    "clubs": ["Real Madrid", "Tottenham"]
+  },
+  {
+    "name": "Kevin De Bruyne",
+    "country": "Belgien",
+    "clubs": ["Manchester City", "Chelsea"]
+  },
+  {
+    "name": "Erling Haaland",
+    "country": "Norwegen",
+    "clubs": ["Manchester City", "Borussia Dortmund"]
+  },
+  {
+    "name": "Kylian Mbappé",
+    "country": "Frankreich",
+    "clubs": ["PSG", "AS Monaco"]
+  },
+  {
+    "name": "Neymar",
+    "country": "Brasilien",
+    "clubs": ["PSG", "FC Barcelona"]
+  },
+  {
+    "name": "Pedri",
+    "country": "Spanien",
+    "clubs": ["FC Barcelona"]
+  },
+  {
+    "name": "Gavi",
+    "country": "Spanien",
+    "clubs": ["FC Barcelona"]
+  }
+]
